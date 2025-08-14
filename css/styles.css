@@ -16,7 +16,7 @@ h1 {
 }
 .h1-section {
   background: linear-gradient(#2e2f42b2 70%, #2e2f42b2 70%),
-    url("./images/people-office-1.jpg");
+    url("/images/people-office-1.jpg");
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
