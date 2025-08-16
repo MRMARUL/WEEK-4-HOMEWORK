@@ -15,13 +15,14 @@ h1 {
   line-height: 1;
 }
 .h1-section {
-  background: linear-gradient(#2e2f42b2 70%, #2e2f42b2 70%),
-    url("/images/people-office-1.jpg");
+  background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url("./images/people-office-1.jpg");
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
 }
+
 h2 {
   font-style: bold;
   font-size: 36px;
@@ -201,10 +202,51 @@ ul {
   height: 40px;
   fill: #f4f4fd;
   background-color: #4d5ae5;
-  border: 4px solid #4d5ae5;
   border-radius: 50%;
   display: flex;
   justify-content: center;
   align-items: center;
-  box-shadow: 0 0 0;
+  box-shadow: 0;
+}
+.icon:hover {
+  background-color: #4d5ae5;
+}
+.our-team .icon {
+  box-shadow: 0;
+}
+.icon-banner {
+  width: 264px;
+  height: 112px;
+  border: 1px solid #8e8f99;
+  border-radius: 4px;
+  background-color: #f4f4fd;
+  padding: 30px 60px;
+}
+.our-portfolio-banner {
+  position: relative;
+  width: 360px;
+  height: 300px;
+  margin: 0 auto;
+  background-color: #bdbdbd;
+  overflow: hidden;
+}
+.our-portfolio-banner-paragraf {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #3f51b5;
+
+  transform: translatey(100%);
+  transition: transform 250ms ease-in-out;
+}
+.our-portfolio-banner:hover .our-portfolio-banner-paragraf {
+  transform: translateY(0);
+}
+.our-portfolio-banner-paragraf {
+  color: #fff;
+  padding: 10px;
+  margin: 0;
+  font-size: 18px;
 }
