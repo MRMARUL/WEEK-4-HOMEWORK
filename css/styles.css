@@ -16,7 +16,7 @@ h1 {
 }
 .h1-section {
   background: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
-    url("./images/people-office-1.jpg");
+    url("../images/people-office-1.jpg");
   text-align: center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -207,12 +207,10 @@ ul {
   justify-content: center;
   align-items: center;
   box-shadow: 0;
+  padding: 7px;
 }
 .icon:hover {
   background-color: #4d5ae5;
-}
-.our-team .icon {
-  box-shadow: 0;
 }
 .icon-banner {
   width: 264px;
